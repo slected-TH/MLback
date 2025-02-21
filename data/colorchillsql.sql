@@ -24,7 +24,8 @@ CREATE TABLE `newClothes` (
   `imageLinkBlob` varchar(255),
   `colorHex` varchar(7),
   `personalCol` varchar(255),
-  `category` varchar(255)
+  `category` varchar(255),
+  `price` integer
 );
 
 CREATE TABLE `AIClassification` (
